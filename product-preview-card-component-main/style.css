@@ -1,0 +1,30 @@
+
+body {
+    background-color:#f2ebe3;
+}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    border-radius: 8px;
+}
+
+.bottle {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #52AD8C;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+  }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
