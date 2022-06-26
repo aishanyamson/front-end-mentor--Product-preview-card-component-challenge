@@ -3,11 +3,26 @@ body {
     background-color:#f2ebe3;
 }
 
+h1 {
+    font-family: 'Fraunces', serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #6c7289;
+}
+
+a {
+    margin: 10px 10px;
+}
+
 .container {
     background-color: white;
-    margin: 0 auto;
+    margin: 25px 5px;
     padding-bottom: 35px;
     border-radius: 8px;
+
 }
 
 .bottle {
@@ -15,16 +30,57 @@ body {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
+
+.details {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.perfume {
+    letter-spacing: 5px;
+    font-size: 0.75rem;
+}
+
+.description {
+   line-height: 2;
+}
+
+.reduced-price {
+    display: inline-block;
+    position: relative;
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    color: #3D8268;
+}
+.price {
+    display: inline-block;
+    position: absolute;
+    left: 190px;
+    top: 550px;
+    text-decoration: line-through;
+}
+
+.Cart {
+    padding-right: 10px;
+    padding-right: 0;
+    margin: 0 auto;
+    
+}
+
 .btn {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
     color: #ffffff;
-    font-size: 20px;
-    background: #52AD8C;
-    padding: 10px 40px 10px 40px;
+    background: #3D8268;
+    padding: 15px 80px 15px 108px;
+    margin: 0 auto;
+    position: relative;
     text-decoration: none;
+    text-align: center;
   }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
